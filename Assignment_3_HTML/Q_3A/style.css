@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Roboto:ital,wght@0,400;1,100;1,300&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+html,body {
+  height: 100%;
+  width: 100%;
+  font-family:'Roboto', sans-serif;
+  
+}
+.container{
+  
+  border:2px solid black;
+  background:#3a4452;
+  border-radius:8px;
+  padding:20px;
+  width:20%;
+}
+button{
+  padding: 20px;
+  width:60px;
+  margin:0 3px;
+  background:black;
+  color:white;
+  
+  box-shadow:-8px -8px 15px rgba(255,255,255,0.1),10px 10px 25px rgba(0,0,0,0.2);
+  border-radius:9px;
+  cursor:pointer;
+}
+.op{
+  background:grey;
+  
+  color:white;
+}
+.clear{
+  background:darkcyan;
+  color:white;
+  padding:16px;
+  width:70px;
+  border-radius:4px;
+}
+.row{
+margin:8px 0;
+}
+.row input{
+  width:200px;
+  font-size:20px;
+  margin:0;
+  padding:10px 0px;
+  border: 2px solid black;
+  border-radius:4px;
+  
+}
